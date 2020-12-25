@@ -1,0 +1,21 @@
+{
+  "name": "websocketserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "websocket": "^1.0.33"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
